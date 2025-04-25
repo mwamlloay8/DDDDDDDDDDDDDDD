@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('../assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.inputs input {
+  width: 45%;
+  padding: 10px;
+  margin: 10px 2%;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  padding: 10px 30px;
+  font-size: 1em;
+  background: #00c853;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card {
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  background: #212121;
+  border-radius: 8px;
+}
+.card.success { border-left: 5px solid #00e676; }
+.card.fail { border-left: 5px solid #d50000; }
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+}
